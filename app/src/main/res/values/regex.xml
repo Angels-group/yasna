@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string translatable="false" name="regex_balance"><![CDATA[Актуальный баланс:[\\S\\s]*?<b>([0-9\\.]*) руб\\.</b>]]></string>
+    <string translatable="false" name="regex_umane"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Абонент</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_login"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Логин</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_appnum"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Номер Приложения</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_status"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Статус блокировки</span></td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)<a href[\\S\\s]*?</tr>]]></string>
+    <string translatable="false" name="regex_tarif"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Тарифный план на услуги</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_type"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Тип Клиента</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_billinggroup"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Биллинговая группа</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_calcmethod"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Метод расчетов</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_paymethod"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Метод оплаты</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_paylist"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Список платежных реквизитов</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_activationdate"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Дата активации</td>\\s*<td[\\S\\s]*?>([[\\s\\p{P}]*?\\s0-9]*?)</td>\\s*</tr>]]></string>
+    <string translatable="false" name="regex_phoneaddress"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Адрес установки телефона</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f15a2c</color>
+    <color name="colorPrimaryDark">#c32e01</color>
+    <color name="colorAccent">#f15a2c</color>
+
+    <color name="yasna1">#f15a2c</color>
+    <color name="yasna2">#fce013</color>
+    <color name="yasna3">#fcb042</color>
+
+    <color name="brand1">#a1704c</color>
+    <color name="brand2">#f4a92b</color>
+    <color name="brand3">#ed511c</color>
+
+    <color name="brand_bg">#f1eade</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

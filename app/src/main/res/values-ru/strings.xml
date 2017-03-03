@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ясна баланс</string>
+
+    <string name="login_field">Логин</string>
+    <string name="password_field">Пароль</string>
+    <string name="capcha_field">Введите цифры с картинки</string>
+    <string name="login_btn">Войти</string>
+    <string name="errortitle">Ошибка</string>
+    <string name="no_connection">Отсутствует подключение к интернет</string>
+    <string name="autherror">Ошибка авторизации.\nПопробуйте пересоздать аккаунт.</string>
+    <string name="please_enter_capcha">Пожалуйста, введите цифры с картинки</string>
+    <string name="please_enter_login">Пожалуйста, введите логин</string>
+    <string name="please_enter_password">Пожалуйтса, введите пароль</string>
+    <string name="server_not_response">Сервер не отвечает. Попробуйте позже</string>
+
+    <string name="loading_title">Загрузка</string>
+    <string name="loading_body">Пожалуйста подождите…</string>
+    <string name="authHeader">Авторизация</string>
+    <string name="tariffplan">Тарифный план:</string>
+    <string name="notitle">Ясна</string>
+
+    <string name="dialogExit">Вы уверены что хотите выйти из своего аккаунта?</string>
+    <string name="yes_btn">ДА</string>
+    <string name="no_btn">НЕТ</string>
+
+    <!-- ITEMS -->
+    <string name="item_uname">Абонент</string>
+    <string name="item_balance">Актуальный баланс</string>
+    <string name="item_appnumber">Номер Приложения</string>
+    <string name="item_activationdate">Дата активации</string>
+    <string name="item_address">Адрес установки телефона</string>
+    <string name="item_status">Статус блокировки</string>
+    <string name="item_login">Логин</string>
+</resources>

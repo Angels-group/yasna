@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_bg"
+    tools:context="by.angel.yasna.LoginActivity">
+
+    <ImageView
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/authHeader"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_field"
+                android:id="@+id/login"
+                android:digits="@string/digits"
+                android:layout_gravity="center_horizontal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_field"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:digits="@string/digits"
+                android:layout_gravity="center_horizontal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="94dp"
+            android:id="@+id/capcha_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/capcha_field"
+                android:id="@+id/capcha_text"
+                android:inputType="phone"
+                android:layout_gravity="center_horizontal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_login"
+            style="@style/AppTheme.Button.Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/login_btn"/>
+
+    </LinearLayout>
+
+</FrameLayout>

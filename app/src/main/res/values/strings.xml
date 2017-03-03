@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Yasna balance</string>
+
+    <string name="login_field">Login</string>
+    <string name="password_field">Password</string>
+    <string name="capcha_field">Enter digits from picture</string>
+    <string name="login_btn">Login</string>
+    <string name="authHeader">Authorization</string>
+
+    <string translatable="false" name="digits">1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-</string>
+
+    <!-- ERRORS -->
+    <string name="please_enter_login">Please enter login</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_capcha">Please enter capcha</string>
+    <string name="no_connection">There are no connection to the Internet</string>
+    <string name="server_not_response">The server is not responding. Please try again later.</string>
+    <string name="autherror">Authorisation Error.\nTry to re-create the account.</string>
+
+    <string translatable="false" name="error">Вы совершаете слишком частые попытки авторизации. К сожалению, мы вынуждены вас заблокировать на 10 минут</string>
+    <string translatable="false" name="correctTitle">Выбор приложения :: Личный кабинет</string>
+
+    <string name="errortitle">Error</string>
+
+    <string name="loading_title">Loading</string>
+    <string name="loading_body">Please wait…</string>
+
+    <string name="tariffplan">Tariff plan:</string>
+    <string name="notitle">Yasna</string>
+    <string name="no_btn">NO</string>
+    <string name="dialogExit">Are you sure you want to logout?</string>
+    <string name="yes_btn">YES</string>
+    
+    <!-- ITEMS -->
+    <string name="item_uname">Subscriber</string>
+    <string name="item_balance">Current balance</string>
+    <string name="item_appnumber">Number of application</string>
+    <string name="item_activationdate">Activation date</string>
+    <string name="item_address">Address telephone installation</string>
+    <string name="item_status">Lock status</string>
+    <string name="item_login">Login</string>
+
+    <string translatable="false" name="byn">BYN</string>
+</resources>
