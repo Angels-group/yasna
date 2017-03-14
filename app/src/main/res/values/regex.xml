@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string translatable="false" name="regex_balance"><![CDATA[Актуальный баланс:[\\S\\s]*?<b>([0-9\\.]*) руб\\.</b>]]></string>
+    <string translatable="false" name="regex_balance"><![CDATA[Актуальный баланс:[\\S\\s]*?<b>([\\S\\s0-9\\.]*) руб\\.</b>]]></string>
     <string translatable="false" name="regex_umane"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Абонент</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
     <string translatable="false" name="regex_login"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Логин</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
     <string translatable="false" name="regex_appnum"><![CDATA[<tr>\\s*<td[\\S\\s]*?>Номер Приложения</td>\\s*<td[\\S\\s]*?>([\\p{L}\\s0-9]*?)</td>\\s*</tr>]]></string>
